@@ -9,7 +9,7 @@
  * http://xmpp.org/extensions/xep-0313.html
  *
  */
-import { $iq, Strophe } from 'strophe.js';
+import { $iq, Strophe } from 'src/assets/strophe.umd.min.js';
 
 Strophe.addConnectionPlugin('mam', {
     _c: null,
